@@ -1,6 +1,6 @@
 # livekit-memory-leak-demo
 
-I have tested this on Python 3.11.7 / 3.12.6 / 3.13.2, and all seem to have memory leak issue. 
+I have tested this on Python 3.11.7 / 3.12.6 / 3.13.2 on my M1 MacBookPro (MacOS 15.3.2), and all seem to have memory leak issue. 
 
 I cannot reproduce this every time, but it turns out that this is very likely to happen.
 
