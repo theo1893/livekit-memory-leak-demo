@@ -13,7 +13,7 @@ from livekit.plugins import (
 )
 from loguru import logger
 
-from config import DEEPGRAM_KEY, OPENAI_KEY
+from config import DEEPGRAM_KEY, OPENAI_KEY, LIVEKIT_URL, LIVEKIT_KEY, LIVEKIT_SECRET
 from utils import plt_rss
 
 
@@ -154,9 +154,9 @@ def main() -> None:
     worker = Worker(
         opts=WorkerOptions(
             entrypoint_fnc=entrypoint,
-            ws_url="YOUR URL",
-            api_key="YOUR KEY",
-            api_secret="YOUR SECRET",
+            ws_url=LIVEKIT_URL,
+            api_key=LIVEKIT_KEY,
+            api_secret=LIVEKIT_SECRET,
             port=11112,
             initialize_process_timeout=10,
             job_executor_type=JobExecutorType.THREAD,
