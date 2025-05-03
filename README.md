@@ -76,4 +76,6 @@ Repeat Step 3 and Step 4.1, and then mute the audio and video input, and wait un
 Plt is done. You can quit now.
 ```
 
-At this time, an image named **line_graph_demo.png** will be generaded under the directory, which containing memory usage during last 10 mins.
+At this time, an image named **line_graph_demo.png** will be generaded under the directory, which containing memory usage during last 10 mins, and it may look like this:
+
+![](graph_collection/basic_local_3_11_7_case2.png)
